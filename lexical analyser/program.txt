@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<conio.h>
+//----------------------------------------
+void area(float rad);  
+//----------------------------------------
+void main()
+{
+float rad =  4 ;
+float a,b,c = 4;
+int z;
+rad = 1;
+z = (98/78+34);
+printf("\nEnter the radius : ");
+for( i = 0 ; i < 5 ; i++){
+a[i] = 5;
+
+	if( i % 22 == 0){
+		printf("even");
+		continue;
+	}
+	else if( i % 332==0){
+		printf("odd");
+		break;
+	}
+	else{
+		printf("nothing",a);
+	}
+}
+scanf("%f",&rad);
+area(rad);
+getch();
+}
+//----------------------------------------
+void area(float rad)
+{
+float ar;
+ar = 3.14 * rad * rad ;
+printf("Area of Circle = %f",ar);
+}
